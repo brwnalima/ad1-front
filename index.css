@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500&family=Stoke:wght@300;400&display=swap');
+/* body todas as pags */
+body {
+    background-color: #EEBB88;
+    color: #402020;
+    font-size: 16px;
+    font-family: 'stoke', 'Lucida Bright', 'liberation', sans-serif;
+}
+header {
+    display: block;
+    margin-bottom: 1px;
+}
+nav {
+    display: block;
+    width: 20%;
+    float: left;
+}
+section {
+    display: block;
+    width: 70%;
+    float: right;
+}
+a {
+    text-decoration: none;
+    color: #603030;
+}
+a:visited {
+    color: #603030;
+}
+ul {
+    line-height: 200%;
+}
+nav ul {
+    color: #332277;
+    line-height: 230%;
+    margin-top: 40px;
+    list-style-type: circle;
+}
+/* HOMEPAGE */
+.ender {
+    float: right;
+    text-align: right;
+    line-height: 140%;
+    font-size: 14px;
+    font-family: 'Karla', 'Verdana', 'Ubuntu', sans-serif;
+}
+.imgLogo {
+    border-bottom: 3px solid #402020;
+    margin-bottom: 6px;
+    padding-bottom: 15px;
+}
+.apres {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 40px;
+
+}
+
+/* ------------- */
+
+/* CAFETERIA */
+
+.listaMaq {
+    width: 340px;
+    color: #402020;
+    background-color: #eeddcc;
+    padding: 10px 10px 10px 50px;
+    border: 2px solid #402020;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 10px;
+    list-style-type: square;
+}
+
+.preco {
+    color: #cc0000;
+}
